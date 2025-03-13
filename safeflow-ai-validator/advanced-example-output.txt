@@ -1,0 +1,34 @@
+Example 1: Creating custom rules
+Validation result:
+  Valid: false
+  Errors: 1
+  Warnings: 0
+
+Errors:
+  1. [MEDIUM] Potential memory leak detected: event listener without corresponding removal
+     at line 6, column 9
+     Suggested fix: Store the listener function in a variable and remove it with removeListener when no longer needed
+
+Example 2: Simulating an AI code generation workflow
+Generating code for prompt: "Create a function to get user data from a database"...
+Generated code passed validation.
+
+Validation Report:
+=== Validation Report ===
+
+Status: PASSED
+Errors: 0
+Warnings: 0
+
+
+Generating code for prompt: "Create a function to process user input safely"...
+Generated code passed validation.
+
+Validation Report:
+=== Validation Report ===
+
+Status: PASSED
+Errors: 0
+Warnings: 0
+
+
